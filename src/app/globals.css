@@ -5,3 +5,7 @@
 .active {
 	color: #64ffda;
 }
+body {
+	/* font-family: "Inter", sans-serif; */
+	font-family: "Montserrat", sans-serif;
+}
