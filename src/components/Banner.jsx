@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import { Personal } from "@/data";
 
 export default function Banner() {
 	return (
@@ -19,9 +20,9 @@ export default function Banner() {
 				animate={{ y: 0, opacity: 1 }}
 				transition={{ duration: 0.5, delay: 0.7 }}
 				className="text-4xl lgl:6xl font-titleFont font-semibold flex flex-col">
-				Habibur Rahman.
+				{Personal.name}
 				<span className="text-textDark mt-2 lgl:mt-4">
-					I build things for web.
+					{Personal.title}
 				</span>
 			</motion.h1>
 			<motion.p
@@ -29,10 +30,8 @@ export default function Banner() {
 				animate={{ y: 0, opacity: 1 }}
 				transition={{ duration: 0.5, delay: 0.8 }}
 				className="text-base md:max-w-[650px] text-textDark font-medium">
-				I am a web developer with 4+ years of experience in React. I
-				have a strong fundation in frontend & back-end development and
-				am skilled in creating user-friendly and responsive web
-				applications using React and its ecosystem.{" "}
+				{Personal.desc}
+
 				<a href="http://habibthealien.netlify.app">
 					<span className="text-textGreen  inline-flex relative cursor-pointer h-7 overflow-x-hidden group ">
 						Learn More

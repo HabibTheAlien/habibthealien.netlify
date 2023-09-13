@@ -2,6 +2,7 @@
 import { useState } from "react";
 import ArchiveCard from "./ArchiveCard";
 import { motion } from "framer-motion";
+import { ArchiveMoreProjects, ArchiveProjects } from "@/data";
 
 export default function Archive() {
 	const [showMore, setShowMore] = useState(false);
@@ -16,209 +17,32 @@ export default function Archive() {
 				</p>
 			</div>
 			<div className="grid gird-cols-1 md:grid-cols-2  xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
-				<ArchiveCard
-					title="Educare English Learning Academy"
-					desc="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Consequatur, cumque enim. Possimus quasi enim, suscipit
-						culpa delectus"
-					listItem={["Reactjs", "Tailwindcss", "getfrom.io"]}
-					link="http://www.educareenglish.com"
-				/>
-				<ArchiveCard
-					title="Educare English Learning Academy"
-					desc="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Consequatur, cumque enim. Possimus quasi enim, suscipit
-						culpa delectus"
-					listItem={["Reactjs", "Tailwindcss", "getfrom.io"]}
-					link="http://www.educareenglish.com"
-				/>
-				<ArchiveCard
-					title="Educare English Learning Academy"
-					desc="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Consequatur, cumque enim. Possimus quasi enim, suscipit
-						culpa delectus"
-					listItem={["Reactjs", "Tailwindcss", "getfrom.io"]}
-					link="http://www.educareenglish.com"
-				/>
-				<ArchiveCard
-					title="Educare English Learning Academy"
-					desc="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Consequatur, cumque enim. Possimus quasi enim, suscipit
-						culpa delectus"
-					listItem={["Reactjs", "Tailwindcss", "getfrom.io"]}
-					link="http://www.educareenglish.com"
-				/>
-				<ArchiveCard
-					title="Educare English Learning Academy"
-					desc="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Consequatur, cumque enim. Possimus quasi enim, suscipit
-						culpa delectus"
-					listItem={["Reactjs", "Tailwindcss", "getfrom.io"]}
-					link="http://www.educareenglish.com"
-				/>
-				<ArchiveCard
-					title="Educare English Learning Academy"
-					desc="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Consequatur, cumque enim. Possimus quasi enim, suscipit
-						culpa delectus"
-					listItem={["Reactjs", "Tailwindcss", "getfrom.io"]}
-					link="http://www.educareenglish.com"
-				/>
+				{ArchiveProjects.map((item) => (
+					<ArchiveCard
+						title={item.title}
+						desc={item.desc}
+						listItem={item.technologies}
+						link={item.open}
+					/>
+				))}
+
 				{showMore && (
 					<>
-						<motion.div
-							initial={{ opacity: 0 }}
-							animate={{ opacity: 1 }}
-							transition={{ delay: 0.1 }}>
-							<ArchiveCard
-								title="Educare English Learning Academy"
-								desc="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Consequatur, cumque enim. Possimus quasi enim, suscipit
-						culpa delectus"
-								listItem={[
-									"Reactjs",
-									"Tailwindcss",
-									"getfrom.io",
-								]}
-								link="http://www.educareenglish.com"
-							/>
-						</motion.div>
-						<motion.div
-							initial={{ opacity: 0 }}
-							animate={{ opacity: 1 }}
-							transition={{ delay: 0.2 }}>
-							<ArchiveCard
-								title="Educare English Learning Academy"
-								desc="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Consequatur, cumque enim. Possimus quasi enim, suscipit
-						culpa delectus"
-								listItem={[
-									"Reactjs",
-									"Tailwindcss",
-									"getfrom.io",
-								]}
-								link="http://www.educareenglish.com"
-							/>
-						</motion.div>
-						<motion.div
-							initial={{ opacity: 0 }}
-							animate={{ opacity: 1 }}
-							transition={{ delay: 0.3 }}>
-							<ArchiveCard
-								title="Educare English Learning Academy"
-								desc="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Consequatur, cumque enim. Possimus quasi enim, suscipit
-						culpa delectus"
-								listItem={[
-									"Reactjs",
-									"Tailwindcss",
-									"getfrom.io",
-								]}
-								link="http://www.educareenglish.com"
-							/>
-						</motion.div>
-						<motion.div
-							initial={{ opacity: 0 }}
-							animate={{ opacity: 1 }}
-							transition={{ delay: 0.4 }}>
-							<ArchiveCard
-								title="Educare English Learning Academy"
-								desc="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Consequatur, cumque enim. Possimus quasi enim, suscipit
-						culpa delectus"
-								listItem={[
-									"Reactjs",
-									"Tailwindcss",
-									"getfrom.io",
-								]}
-								link="http://www.educareenglish.com"
-							/>
-						</motion.div>
-						<motion.div
-							initial={{ opacity: 0 }}
-							animate={{ opacity: 1 }}
-							transition={{ delay: 0.5 }}>
-							<ArchiveCard
-								title="Educare English Learning Academy"
-								desc="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Consequatur, cumque enim. Possimus quasi enim, suscipit
-						culpa delectus"
-								listItem={[
-									"Reactjs",
-									"Tailwindcss",
-									"getfrom.io",
-								]}
-								link="http://www.educareenglish.com"
-							/>
-						</motion.div>
-						<motion.div
-							initial={{ opacity: 0 }}
-							animate={{ opacity: 1 }}
-							transition={{ delay: 0.6 }}>
-							<ArchiveCard
-								title="Educare English Learning Academy"
-								desc="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Consequatur, cumque enim. Possimus quasi enim, suscipit
-						culpa delectus"
-								listItem={[
-									"Reactjs",
-									"Tailwindcss",
-									"getfrom.io",
-								]}
-								link="http://www.educareenglish.com"
-							/>
-						</motion.div>
-						<motion.div
-							initial={{ opacity: 0 }}
-							animate={{ opacity: 1 }}
-							transition={{ delay: 0.7 }}>
-							<ArchiveCard
-								title="Educare English Learning Academy"
-								desc="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Consequatur, cumque enim. Possimus quasi enim, suscipit
-						culpa delectus"
-								listItem={[
-									"Reactjs",
-									"Tailwindcss",
-									"getfrom.io",
-								]}
-								link="http://www.educareenglish.com"
-							/>
-						</motion.div>
-						<motion.div
-							initial={{ opacity: 0 }}
-							animate={{ opacity: 1 }}
-							transition={{ delay: 0.8 }}>
-							<ArchiveCard
-								title="Educare English Learning Academy"
-								desc="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Consequatur, cumque enim. Possimus quasi enim, suscipit
-						culpa delectus"
-								listItem={[
-									"Reactjs",
-									"Tailwindcss",
-									"getfrom.io",
-								]}
-								link="http://www.educareenglish.com"
-							/>
-						</motion.div>
-						<motion.div
-							initial={{ opacity: 0 }}
-							animate={{ opacity: 1 }}
-							transition={{ delay: 0.9 }}>
-							<ArchiveCard
-								title="Educare English Learning Academy"
-								desc="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Consequatur, cumque enim. Possimus quasi enim, suscipit
-						culpa delectus"
-								listItem={[
-									"Reactjs",
-									"Tailwindcss",
-									"getfrom.io",
-								]}
-								link="http://www.educareenglish.com"
-							/>
-						</motion.div>
+						{ArchiveMoreProjects.map((item, index) => (
+							<motion.div
+								initial={{ opacity: 0 }}
+								animate={{ opacity: 1 }}
+								transition={{
+									delay: ` ${index / 10 + 0.01} `,
+								}}>
+								<ArchiveCard
+									title={item.title}
+									desc={item.desc}
+									listItem={item.technologies}
+									link={item.open}
+								/>
+							</motion.div>
+						))}
 					</>
 				)}
 			</div>

@@ -1,34 +1,9 @@
+"use client";
 import Image from "next/image";
 import React from "react";
 import SectionTitle from "./SectionTitle";
 import { AiFillThunderbolt } from "react-icons/ai";
-
-const technologies = [
-	{
-		techName: "JavaScript(ES6+)",
-	},
-	{
-		techName: "React",
-	},
-	{
-		techName: "TypeScript",
-	},
-	{
-		techName: "MongoDB",
-	},
-	{
-		techName: "Next.js",
-	},
-	{
-		techName: "Node.js",
-	},
-	{
-		techName: "Express.js",
-	},
-	{
-		techName: "Tailwindcss",
-	},
-];
+import { Personal, Technologies } from "@/data.js";
 
 const About = () => {
 	return (
@@ -71,26 +46,24 @@ const About = () => {
 						recenrtly:
 					</p>
 					<ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
-						{technologies.map((item) => (
-							<li
-								className="flex items-center gap-2"
-								key={item.techName}>
+						{Technologies.map((item) => (
+							<li className="flex items-center gap-2" key={item}>
 								<span className="text-textGreen">
 									<AiFillThunderbolt />
 								</span>
-								{item.techName}
+								{item}
 							</li>
 						))}
 					</ul>
 				</div>
 				<div className="w-full lgl:w-1/3 h-80 relative group">
 					<div className="absolute w-full h-80 -left-6 -top-6 rounded-lg">
-						<div className="w-full h-full pl-6 relative z-20 flex lgl:pl-0">
+						<div className="w-full h-full relative z-20 flex lgl:pl-0">
 							<Image
 								fill
-								src="/20230207_092250.jpg"
+								src={Personal.image}
 								alt=""
-								className="rounded-lg h-full  object-cover"
+								className="rounded-lg ml-6 h-full md:ml-0  object-cover"
 							/>
 							<div className="hidden lgl:inline-block absolute w-full h-80 bg-textGreen/20 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
 						</div>
