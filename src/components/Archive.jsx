@@ -30,6 +30,7 @@ export default function Archive() {
 					<>
 						{ArchiveMoreProjects.map((item, index) => (
 							<motion.div
+								key={index}
 								initial={{ opacity: 0 }}
 								animate={{ opacity: 1 }}
 								transition={{
