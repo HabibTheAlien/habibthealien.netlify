@@ -17,8 +17,9 @@ export default function Archive() {
 				</p>
 			</div>
 			<div className="grid gird-cols-1 md:grid-cols-2  xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
-				{ArchiveProjects.map((item) => (
+				{ArchiveProjects.map((item, index) => (
 					<ArchiveCard
+						key={index}
 						title={item.title}
 						desc={item.desc}
 						listItem={item.technologies}
