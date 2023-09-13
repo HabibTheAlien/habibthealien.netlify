@@ -63,7 +63,7 @@ const About = () => {
 								fill
 								src={Personal.image}
 								alt=""
-								className="rounded-lg ml-6 h-full md:ml-0  object-cover"
+								className="rounded-lg ml-8 h-full md:ml-0  object-cover"
 							/>
 							<div className="hidden lgl:inline-block absolute w-full h-80 bg-textGreen/20 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
 						</div>
