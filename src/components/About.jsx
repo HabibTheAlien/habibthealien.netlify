@@ -14,8 +14,9 @@ const About = () => {
 			<div className="flex flex-col lgl:flex-row gap-16">
 				<div className="w-full  lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4 ">
 					<p>
-						Hello, I'm Habibur Rahman, a dedicated web developer
-						with over 3 years of experience specializing in the{" "}
+						Hello, I&apos;m Habibur Rahman, a dedicated web
+						developer with over 3 years of experience specializing
+						in the{" "}
 						<span className="text-textGreen">MERN Stack.</span> I
 						harness the power of MongoDB, React, Next.js, Node, and
 						Express to meticulously craft remarkable web
@@ -30,15 +31,15 @@ const About = () => {
 						applications. Based in Dhaka, I share my home with{" "}
 						<span className="text-textGreen">my mom </span>and{" "}
 						<span className="text-textGreen">my trusty guitar</span>{" "}
-						and I'm an avid traveler.
+						and I&apos;m an avid traveler.
 					</p>
 					<p>
 						Additionally, I excel in{" "}
 						<span className="text-textGreen">React Native</span>,
 						extending my problem-solving capabilities to mobile app
 						development. My love for my work is the driving force
-						behind everything I create. Let's connect and bring your
-						digital ideas to life!
+						behind everything I create. Let&apos;s connect and bring
+						your digital ideas to life!
 					</p>
 
 					<p>
