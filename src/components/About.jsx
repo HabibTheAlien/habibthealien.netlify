@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 import SectionTitle from "./SectionTitle";
 import { AiFillThunderbolt } from "react-icons/ai";
-import { Personal, Technologies } from "@/data.js";
+import { Personal, Technologies } from "@/data";
 
 const About = () => {
 	return (
@@ -14,36 +14,36 @@ const About = () => {
 			<div className="flex flex-col lgl:flex-row gap-16">
 				<div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4 ">
 					<p>
-						I am a web developer with 4+ years of experience in
-						React. I have a strong fundation in frontend & back-end
-						development and am skilled in creating user-friendly and
-						responsive web applications using React and its
-						ecosystem. I am a web developer
-						<span className="text-textGreen">
-							with 4+ years of experience
-						</span>
+						Hello, I'm Habibur Rahman, a dedicated web developer
+						with over 3 years of experience specializing in the{" "}
+						<span className="text-textGreen">MERN Stack.</span> I
+						harness the power of MongoDB, React, Next.js, Node, and
+						Express to meticulously craft remarkable web
+						applications, all hand-coded with care. My design
+						toolkit includes Figma, Photoshop, and Illustrator, and
+						I employ CSS, SASS,{" "}
+						<span className="text-textGreen">Tailwind CSS</span> and
+						Styled-Components to create captivating user interfaces.
 					</p>
 					<p>
-						I am a web developer with 4+ years of experience in
-						React. I have a strong fundation in frontend & back-end
-						development and am skilled in creating user-friendly and
-						responsive web applications using React and its
-						ecosystem. I am a web developer
-						<span className="text-textGreen">
-							with 4+ years of experience
-						</span>
+						Beyond coding, I solve real-world problems with my web
+						applications. Based in Dhaka, I share my home with{" "}
+						<span className="text-textGreen">my mom </span>and{" "}
+						<span className="text-textGreen">my trusty guitar</span>{" "}
+						and I'm an avid traveler.
 					</p>
 					<p>
-						I am a web developer with 4+ years of experience in
-						React. I have a strong fundation in frontend & back-end
-						development developer
-						<span className="text-textGreen">
-							with 4+ years of experience
-						</span>
+						Additionally, I excel in{" "}
+						<span className="text-textGreen">React Native</span>,
+						extending my problem-solving capabilities to mobile app
+						development. My love for my work is the driving force
+						behind everything I create. Let's connect and bring your
+						digital ideas to life!
 					</p>
+
 					<p>
 						Here are a few technologies I have beenworking with
-						recenrtly:
+						recenrtly :
 					</p>
 					<ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
 						{Technologies.map((item) => (

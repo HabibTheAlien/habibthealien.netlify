@@ -34,7 +34,7 @@ const Navbar = () => {
 		e.currentTarget.classList.add("active");
 	};
 	return (
-		<div className="w-full shadow-navbarShadow h-20  lg:h-[12vh] sticky top-0 left-0 z-1000 bg-bodyColor px-4">
+		<div className="w-full shadow-navbarShadow h-20  lg:h-[12vh] sticky top-0  z-1000 bg-bodyColor px-10">
 			<div className="max-w-container h-full mx-auto py-1 font-titleFont flex items-center justify-between">
 				<motion.div
 					initial={{ opacity: 0 }}
@@ -44,7 +44,7 @@ const Navbar = () => {
 						src="/H.png"
 						width={100}
 						height={100}
-						className="w-14"
+						className="w-12 cursor-pointer"
 						alt=""
 					/>
 				</motion.div>

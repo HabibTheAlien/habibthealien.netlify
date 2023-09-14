@@ -3,20 +3,19 @@ export const Personal = {
 	name: "Habibur Rahman.",
 	title: "I build things for web.",
 	image: "/20230207_092250.jpg",
-	desc: "I am a web developer with 4+ years of experience in React. I have a strong fundation in frontend & back-end development and am skilled in creating user-friendly and responsive web applications using React and its ecosystem. ",
+	desc: "I am a web developer with greate experience in MERN Stack. I have a strong foundation in both frontend and backend development, and I excel in creating user-friendly and responsive web applications using React and its ecosystem.",
 	about: "I am a web developer with 4+ years of experience in React. I have a strong fundation in frontend & back-end development and am skilled in creating user-friendly and responsive web applications using React and its ecosystem. I am a web developerwith 4+ years of experience I am a web developer with 4+ years of experience in React. I have a strong fundation in frontend & back-end development and am skilled in creating user-friendly and responsive web applications using React and its ecosystem. I am a web developerwith 4+ years of experience I am a web developer with 4+ years of experience in React. I have a strong fundation in frontend & back-end development developerwith 4+ years of experience ",
 };
 
 export const Technologies = [
-	"JavaScript(ES6+)",
+	"JavaScript (ES6+)",
 	"React",
+	"NextJs",
 	"TypeScript",
 	"MongoDB",
-	"Next.js",
 	"React Native",
-	"Node.js",
-	"Express.js",
-	"Tailwindcss",
+	"ExpressJs",
+	"TailwindCSS",
 ];
 
 export const WorkExperience = [
