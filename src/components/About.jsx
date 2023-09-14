@@ -46,7 +46,9 @@ const About = () => {
 						Here are a few technologies I have beenworking with
 						recenrtly :
 					</p>
-					<ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
+					<ul
+						className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6"
+						style={{ fontFamily: "Roboto Mono" }}>
 						{Technologies.map((item) => (
 							<li className="flex items-center gap-2" key={item}>
 								<span className="text-textGreen">

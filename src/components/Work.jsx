@@ -14,7 +14,9 @@ const Work = ({ data }) => {
 					@{data.company}
 				</span>
 			</h3>
-			<p className="text-sm mt-1 font-medium text-textDark">
+			<p
+				className="text-sm mt-1 font-medium text-textDark"
+				style={{ fontFamily: "Roboto Mono" }}>
 				{data.duration}
 			</p>
 			<ul className="mt-6 flex flex-col gap-3">

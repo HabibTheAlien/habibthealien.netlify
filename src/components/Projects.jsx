@@ -36,7 +36,9 @@ const Projects = () => {
 										? "items-end  text-right xl:-ml-16"
 										: "items-start text-left xl:-mr-16 "
 								}`}>
-								<p className="font-titleFont text-textGreen text-sm tracking-wide">
+								<p
+									className="font-titleFont text-textGreen text-sm tracking-wide"
+									style={{ fontFamily: "Roboto Mono" }}>
 									Featured Project
 								</p>
 								<h3 className="text-2xl font-bold">
@@ -51,7 +53,9 @@ const Projects = () => {
 										strip
 									</span>
 								</p>
-								<ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+								<ul
+									className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark"
+									style={{ fontFamily: "Roboto Mono" }}>
 									{item.technologies?.map((tech) => (
 										<li key={tech}>{tech}</li>
 									))}

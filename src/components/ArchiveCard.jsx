@@ -17,7 +17,9 @@ const ArchiveCard = ({ link, title, desc, listItem }) => {
 					</h2>
 					<p className="text-sm mt-3">{desc}</p>
 				</div>
-				<ul className="text-xs mdl:text-sm text-textDark flex items-center gap-2 justify-between flex-wrap">
+				<ul
+					className="text-xs mdl:text-sm text-textDark flex items-center gap-2 justify-between flex-wrap"
+					style={{ fontFamily: "Roboto Mono" }}>
 					{listItem.map((item, i) => (
 						<li key={i}>{item}</li>
 					))}

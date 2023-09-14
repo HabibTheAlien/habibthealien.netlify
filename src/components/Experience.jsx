@@ -18,6 +18,7 @@ const Experience = () => {
 						<li
 							key={index}
 							onClick={() => setSelected(index)}
+							style={{ fontFamily: "Roboto Mono" }}
 							className={` ${
 								selected === index
 									? " border-l-textGreen text-textGreen "

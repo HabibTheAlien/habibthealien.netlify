@@ -11,7 +11,9 @@ export default function RightSide() {
 			className="hidden xl:inline-flex w-32 h-full fixed right-0 bottom-0">
 			<div className="w-full h-full flex flex-col items-center justify-end gap-20 text-textLight">
 				<a href="mailto:habibthealien@gmail.com">
-					<p className="text-sm rotate-90 w-72 tracking-wide text-textGreen">
+					<p
+						className="text-sm rotate-90 w-72 tracking-wide text-textGreen"
+						style={{ fontFamily: "Roboto Mono" }}>
 						habibthealien@gmail.com
 					</p>
 				</a>

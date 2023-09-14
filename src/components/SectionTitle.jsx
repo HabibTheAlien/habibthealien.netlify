@@ -3,7 +3,9 @@ import React from "react";
 const SectionTitle = ({ title, titleNo }) => {
 	return (
 		<h2 className="font-titlefont text-2xl font-semibold flex items-center">
-			<span className="text-base md:text-lg text-textGreen mr-2">
+			<span
+				className="text-base md:text-lg text-textGreen mr-2"
+				style={{ fontFamily: "Roboto Mono" }}>
 				{titleNo}.
 			</span>
 			{title}

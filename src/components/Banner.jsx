@@ -12,7 +12,8 @@ export default function Banner() {
 				initial={{ y: 10, opacity: 0 }}
 				animate={{ y: 0, opacity: 1 }}
 				transition={{ duration: 0.5, delay: 0.6 }}
-				className="text-lg font-titleFont tracking-wide text-textGreen">
+				className="text-lg font-titleFont tracking-wide text-textGreen"
+				style={{ fontFamily: "Roboto Mono" }}>
 				Hi, my name is
 			</motion.h3>
 			<motion.h1
@@ -43,7 +44,8 @@ export default function Banner() {
 				initial={{ y: 10, opacity: 0 }}
 				animate={{ y: 0, opacity: 1 }}
 				transition={{ duration: 0.5, delay: 0.9 }}
-				className="w-52 h-14 text-sm font-titlefont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300">
+				className="w-52 h-14 text-sm font-titlefont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300"
+				style={{ fontFamily: "Roboto Mono" }}>
 				Checkout my project
 			</motion.button>
 		</section>

@@ -13,7 +13,6 @@ import {
 } from "react-icons/sl";
 
 const Navbar = () => {
-	// const ref = useRef("");
 	const [showMenu, setShowMenu] = useState(false);
 
 	const handleScroll = (e) => {
@@ -49,7 +48,9 @@ const Navbar = () => {
 					/>
 				</motion.div>
 				<div className="hidden mdl:inline-flex items-center gap-7">
-					<ul className="flex text-[13px] gap-7">
+					<ul
+						className="flex text-[13px] gap-7"
+						style={{ fontFamily: "Roboto Mono" }}>
 						<Link
 							onClick={handleScroll}
 							href="#home"
@@ -69,7 +70,7 @@ const Navbar = () => {
 								initial={{ y: -10, opacity: 0 }}
 								animate={{ y: 0, opacity: 1 }}
 								transition={{ duration: 0.1, delay: 0.4 }}>
-								<span className="text-textGreen">01.</span>
+								<span className="text-textGreen">01. </span>
 								About
 							</motion.li>
 						</Link>
@@ -81,7 +82,7 @@ const Navbar = () => {
 								initial={{ y: -10, opacity: 0 }}
 								animate={{ y: 0, opacity: 1 }}
 								transition={{ duration: 0.1, delay: 0.4 }}>
-								<span className="text-textGreen">02.</span>
+								<span className="text-textGreen">02. </span>
 								Experience
 							</motion.li>
 						</Link>
@@ -93,7 +94,7 @@ const Navbar = () => {
 								initial={{ y: -10, opacity: 0 }}
 								animate={{ y: 0, opacity: 1 }}
 								transition={{ duration: 0.1, delay: 0.4 }}>
-								<span className="text-textGreen">03.</span>
+								<span className="text-textGreen">03. </span>
 								Project
 							</motion.li>
 						</Link>
@@ -105,7 +106,7 @@ const Navbar = () => {
 								initial={{ y: -10, opacity: 0 }}
 								animate={{ y: 0, opacity: 1 }}
 								transition={{ duration: 0.1, delay: 0.4 }}>
-								<span className="text-textGreen">04.</span>
+								<span className="text-textGreen">04. </span>
 								Contact
 							</motion.li>
 						</Link>
@@ -144,7 +145,9 @@ const Navbar = () => {
 								className="text-3xl text-textGreen cursor-pointer hover:text-red-500 absolute top-4 right-4"
 							/>
 							<div className="flex flex-col items-center gap-7">
-								<ul className="flex flex-col text-base gap-7">
+								<ul
+									className="flex flex-col text-base gap-7"
+									style={{ fontFamily: "Roboto Mono" }}>
 									<Link
 										onClick={handleScroll}
 										href="#home"
@@ -238,7 +241,8 @@ const Navbar = () => {
 										initial={{ opacity: 0 }}
 										animate={{ opacity: 1 }}
 										transition={{ delay: 0.5 }}
-										className="px-4 py-2 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300">
+										className="px-4 py-2 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300"
+										style={{ fontFamily: "Roboto Mono" }}>
 										Resume
 									</motion.button>
 								</a>
@@ -315,7 +319,11 @@ const Navbar = () => {
 											ease: "easeIn",
 										}}
 										href="mailto:habibthealien@gmail.com">
-										<p className="text-sm  w-72 tracking-wide text-textGreen text-center">
+										<p
+											className="text-sm  w-72 tracking-wide text-textGreen text-center"
+											style={{
+												fontFamily: "Roboto Mono",
+											}}>
 											habibthealien@gmail.com
 										</p>
 									</motion.a>

@@ -12,7 +12,9 @@ export default function Archive() {
 				<h2 className="text-3xl font-titleFOnt font-semibold">
 					Other Noteworthy Project
 				</h2>
-				<p className="text-sm font-titleFont text-textGreen">
+				<p
+					className="text-sm font-titleFont text-textGreen"
+					style={{ fontFamily: "Roboto Mono" }}>
 					view the archive
 				</p>
 			</div>
