@@ -61,7 +61,7 @@ const About = () => {
 				</div>
 				<div className="w-5/6 self-center  lg:w-full  lgl:w-1/3 h-80 lg:self-start relative group">
 					<div className="absolute w-full h-80 -left-4 -top-4 rounded-lg">
-						<div className="w-full h-full relative z-20 flex  group-hover:-translate-x-2 group-hover:-translate-y transition-transform duration-300 ">
+						<div className="w-full h-full relative z-20 flex  group-hover:-translate-x-2 group-hover:-translate-y-2 transition-transform duration-300 ">
 							<Image
 								fill
 								src={Personal.image}

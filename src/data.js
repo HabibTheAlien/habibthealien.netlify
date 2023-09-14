@@ -70,18 +70,12 @@ export const WorkExperience = [
 
 export const TopProjects = [
 	{
-		title: "Amazonn Clone 2.0",
-		desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus incidunt exercitationem, natus corporis est 0-auth suscipit, aliquam doloribus tenetur eligendi, culpa esse a? Repellendus quidem dolorem sapiente dolor iusto saepe accusamus! strip",
-		image: "/1.png",
-		technologies: [
-			"NextJs",
-			"TypeScript",
-			"Next-auth",
-			"Vercel",
-			"Deployment",
-		],
-		github: "www.github.com/habibthealien",
-		open: "www.sweet16th.natlify.app",
+		title: "Admin Dashboard with Dark Theme",
+		desc: "Discover the React admin dashboard featuring a stylish dark theme, advanced analytics, and a plethora of powerful features. Streamline your management tasks effortlessly.",
+		image: "/reactAdmin.png",
+		technologies: ["React", "MUI", "SASS", "mui/icons", "Deployment"],
+		github: "https://github.com/HabibTheAlien/Admin-Dashbord-with-Dark-theme",
+		open: "https://admindashboarddarktheme.netlify.app",
 	},
 	{
 		title: "Amazonn Clone 2.0",
