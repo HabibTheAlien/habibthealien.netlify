@@ -68,7 +68,7 @@ const About = () => {
 								alt=""
 								className="rounded-lg  h-full object-cover"
 							/>
-							<div className="absolute w-full h-80 bg-textGreen/30 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
+							<div className="absolute w-full h-80 bg-textGreen/25 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
 						</div>
 					</div>
 					<div className=" w-full h-80 border-2 border-textGreen rounded-md group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-300 "></div>

@@ -78,16 +78,10 @@ export const TopProjects = [
 		open: "https://admindashboarddarktheme.netlify.app",
 	},
 	{
-		title: "Amazonn Clone 2.0",
+		title: "NFT Marketplace",
 		desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus incidunt exercitationem, natus corporis est 0-auth suscipit, aliquam doloribus tenetur eligendi, culpa esse a? Repellendus quidem dolorem sapiente dolor iusto saepe accusamus! strip",
 		image: "/1.png",
-		technologies: [
-			"NextJs",
-			"TypeScript",
-			"Next-auth",
-			"Vercel",
-			"Deployment",
-		],
+		technologies: ["React Native", "JavaScript", "Tailwind", "Deployment"],
 		github: "www.github.com/habibthealien",
 		open: "www.sweet16th.natlify.app",
 	},
